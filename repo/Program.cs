@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace repo
 {
@@ -10,6 +6,12 @@ namespace repo
     {
         static void Main(string[] args)
         {
+
+            // alpha 2010
+            var A = new int[] { 2, 2, 1, 0, 2 };
+            Console.WriteLine(Alpha2010.execute(A));
+
+            Console.ReadKey();
         }
     }
 }
